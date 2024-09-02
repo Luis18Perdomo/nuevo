@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio - Comisaría</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css"> <!-- Bootstrap CSS local -->
+    <link rel="stylesheet" href="styles.css"> <!-- Estilo personalizado -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa; /* Fondo claro */
+        }
+
+        header {
+            background-color: #004085; /* Azul oscuro */
+            color: white;
+            padding: 10px 0;
+        }
+
+        .navbar-brand img {
+            height: 50px; /* Ajusta el tamaño del logo */
+        }
+
+        .navbar-nav .nav-item .nav-link {
+            color: white;
+            margin: 0 10px;
+        }
+
+        .navbar-nav .nav-item .nav-link:hover {
+            color: #cce5ff; /* Azul claro */
+        }
+
+        .main-content {
+            padding: 20px;
+            text-align: center;
+        }
+
+        footer {
+            background-color: #004085;
+            color: white;
+            padding: 15px 0;
+        }
+
+        .jumbotron {
+            background-color: #cce5ff; /* Azul claro */
+            color: #004085;
+            padding: 2rem;
+        }
+
+        .card-title {
+            color: #004085; /* Azul oscuro */
+        }
+
+        .card-body {
+            background-color: #e2e3e5; /* Gris claro */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+            <a class="navbar-brand" href="#">
+                <img src="logo.jpg" alt="Logo de la Comisaría"> <!-- Asegúrate de tener una imagen en esta ruta -->
+                Comisaría
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">Sobre Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="services.html">Servicios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contacto</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="blog.html">Blog</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main class="container mt-5">
+        <section class="jumbotron text-center bg-light">
+            <h1 class="display-4">Bienvenido a la Comisaría</h1>
+            <p class="lead">Nuestra misión es proteger y servir a nuestra comunidad con integridad, transparencia y dedicación. Nos esforzamos por garantizar la seguridad de todos los ciudadanos, respondiendo de manera eficaz y profesional a cualquier situación que ponga en riesgo su bienestar.</p>
+            <hr class="my-4">
+            <p>Contamos con un equipo de profesionales altamente capacitados que trabajan 24/7 para mantener el orden y la paz en nuestra sociedad.</p>
+        </section>
+
+        <section>
+            <h2 class="text-primary">Nuestros Servicios</h2>
+            <div class="card-deck">
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Patrullaje</h5>
+                        <p class="card-text">Monitoreo constante de las calles para prevenir delitos y mantener la seguridad en todas las áreas de la comunidad.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Investigación</h5>
+                        <p class="card-text">Investigación detallada y profesional de crímenes para llevar a los responsables ante la justicia.</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="card-body">
+                        <h5 class="card-title">Asistencia a Víctimas</h5>
+                        <p class="card-text">Proporcionamos apoyo y recursos a las víctimas de crímenes para ayudarles a superar las dificultades.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="bg-primary text-white text-center py-3">
+        <p>&copy; 2024 Comisaría - Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="js/jquery.min.js"></script> <!-- jQuery local -->
+    <script src="js/bootstrap.bundle.min.js"></script> <!-- Bootstrap JS local -->
+</body>
+</html>

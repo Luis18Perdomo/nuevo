@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog - Comisaría</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #F4F4F4; /* Fondo gris claro */
+            color: #333; /* Texto gris oscuro */
+        }
+
+        header {
+            background-color: #003366; /* Azul oscuro */
+            color: #FFFFFF; /* Texto blanco */
+            padding: 15px 0;
+        }
+
+        header nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            padding: 0;
+            margin: 0;
+        }
+
+        header nav ul li {
+            margin: 0 15px;
+        }
+
+        header nav ul li a {
+            color: #FFFFFF; /* Texto blanco para enlaces */
+            text-decoration: none;
+            font-size: 18px;
+            transition: color 0.3s;
+        }
+
+        header nav ul li a:hover {
+            color: #FFCC00; /* Amarillo dorado en hover */
+        }
+
+        main {
+            padding: 40px 20px;
+            text-align: center;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        h1 {
+            color: #003366; /* Azul oscuro */
+            margin-bottom: 20px;
+        }
+
+        .post {
+            background-color: #FFFFFF; /* Fondo blanco */
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+
+        .post h2 {
+            color: #003366; /* Azul oscuro para el título de las publicaciones */
+            margin-bottom: 10px;
+        }
+
+        .post p {
+            color: #555; /* Texto gris medio para el contenido */
+            line-height: 1.6;
+        }
+
+        footer {
+            background-color: #003366; /* Azul oscuro */
+            color: white; /* Texto blanco */
+            text-align: center;
+            padding: 15px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+            left: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="about.html">Sobre Nosotros</a></li>
+                <li><a href="services.html">Servicios</a></li>
+                <li><a href="contact.html">Contacto</a></li>
+                <li><a href="blog.html">Blog</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h1>Blog</h1>
+            <article class="post">
+                <h2>La Seguridad en el Hogar: Consejos Útiles</h2>
+                <p>En esta publicación, exploramos varias estrategias para mejorar la seguridad en el hogar, desde sistemas de alarma hasta medidas preventivas sencillas que puedes implementar hoy mismo. Asegúrate de seguir estos consejos para proteger a tu familia y tus bienes.</p>
+            </article>
+            <article class="post">
+                <h2>Cómo Prevenir el Delito en tu Comunidad</h2>
+                <p>Descubre cómo puedes contribuir a la seguridad de tu comunidad a través de la cooperación con tus vecinos y la participación en programas locales de vigilancia. Aprenderás cómo organizar reuniones comunitarias y qué recursos están disponibles para ti.</p>
+            </article>
+            <!-- Agrega más publicaciones aquí -->
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Comisaría</p>
+    </footer>
+</body>
+</html>

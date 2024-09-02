@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - Comisaría</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="about.html">Sobre Nosotros</a></li>
+                <li><a href="services.html">Servicios</a></li>
+                <li><a href="contact.html">Contacto</a></li>
+                <li><a href="blog.html">Blog</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h1>Contáctanos</h1>
+            <form action="#" method="post">
+                <label for="name">Nombre:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Correo Electrónico:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Mensaje:</label>
+                <textarea id="message" name="message" rows="6" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+            <div class="social-media">
+                <p>Síguenos en nuestras redes sociales:</p>
+                <ul>
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Twitter</a></li>
+                    <li><a href="#">Instagram</a></li>
+                </ul>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Comisaría</p>
+    </footer>
+</body>
+<style>
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #F4F4F4; /* Fondo gris claro */
+    color: #333333; /* Texto gris oscuro */
+}
+
+header {
+    background-color: #003366; /* Azul oscuro */
+    color: #FFFFFF; /* Texto blanco */
+    padding: 15px 0;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #FFFFFF; /* Texto blanco para enlaces */
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+header nav ul li a:hover {
+    color: #FFCC00; /* Amarillo dorado en hover */
+}
+
+main {
+    padding: 40px 20px;
+    text-align: center;
+    min-height: calc(100vh - 120px); /* Ajusta la altura mínima para evitar que el contenido se esconda debajo del footer */
+    margin-bottom: 80px; /* Espacio para el footer */
+}
+
+h1 {
+    color: #003366; /* Azul oscuro para el título principal */
+    margin-bottom: 20px;
+}
+
+form {
+    background-color: #FFFFFF; /* Fondo blanco para el formulario */
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    padding: 20px;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+form label {
+    display: block;
+    margin: 10px 0 5px;
+    font-weight: bold;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #CCCCCC; /* Borde gris claro */
+    border-radius: 4px;
+    box-sizing: border-box; /* Incluye padding y borde en el ancho total */
+}
+
+form button {
+    background-color: #003366; /* Azul oscuro */
+    color: #FFFFFF; /* Texto blanco */
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+form button:hover {
+    background-color: #002244; /* Azul más oscuro en hover */
+}
+
+.social-media {
+    margin-top: 30px;
+}
+
+.social-media p {
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+.social-media ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.social-media ul li {
+    margin: 0 10px;
+}
+
+.social-media ul li a {
+    color: #003366; /* Azul oscuro para enlaces sociales */
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s;
+}
+
+.social-media ul li a:hover {
+    color: #FFCC00; /* Amarillo dorado en hover */
+}
+
+footer {
+    background-color: #003366; /* Azul oscuro */
+    color: white; /* Texto blanco */
+    text-align: center;
+    padding: 15px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+}
+</style>
+</html>
